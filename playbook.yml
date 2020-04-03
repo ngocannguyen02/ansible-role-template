@@ -1,0 +1,10 @@
+---
+
+- hosts: all
+
+  tasks:
+  - name: Role ansible-role-template
+    include_role:
+      name: ansible-role-template
+    vars:
+      step1: true

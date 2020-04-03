@@ -1,0 +1,9 @@
+---
+
+name: test-ansible-role-template
+title: Tests ansible role template
+maintainer: hokuto@maintainer.com
+copyright: hokuto
+license: Proprietary, All rights reserved
+summary: Verify ansible role is well applied to VM
+version: 1.0.0

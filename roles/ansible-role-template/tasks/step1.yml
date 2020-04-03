@@ -1,0 +1,8 @@
+---
+- name: STEP1 - Permit passwd auth with ssh
+  lineinfile:
+    path: /etc/ssh/sshd_config
+    regexp: '^PasswordAuthentication no'
+    state: absent
+  notify: restart sshd
+  become: true
